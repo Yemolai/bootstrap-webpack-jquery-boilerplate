@@ -13,6 +13,7 @@
   "version": "1.6.2",
   "scripts": {
     "build": "webpack -p --progress --mode production --config webpack.config.js",
+    "build:docker": "docker build -t test/html5-boilerplate:latest .",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --open --config webpack.config.js",

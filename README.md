@@ -43,13 +43,14 @@ Hence, this repo is suitable for simple projects.
 - Support **ES6** Syntax (**Babel 7**)
 - **ESLint** + **Prettier** = **Neat Coding Style**
 - Webpack production building (**code splitting**, **cache**, **lazy-loading** and [**Terser**](https://github.com/terser-js/terser))
+- Dockerfile image building script for quick deploy
 
 ## Download and Install
 
 Let's go!
 
 ```
-$ git clone https://github.com/xxhomey19/bootstrap-webpack-jquery-boilerplate.git
+$ git clone https://github.com/yemolai/bootstrap-webpack-jquery-boilerplate.git
 $ cd bootstrap-webpack-jquery-boilerplate
 $ yarn // or npm install
 ```
@@ -70,9 +71,15 @@ Build for production.
 $ npm run build
 ```
 
+Build for Docker.
+
+```
+$ npm run build:docker
+```
+
 ## Deploy
 
-Deploy to `gh-pages` branch on GitHub.
+Deploy to `gh-pages` branch on GitHub (@xxhomey19).
 
 **[DEMO](https://xxhomey19.github.io/bootstrap-webpack-jquery-boilerplate/)**
 
@@ -83,3 +90,5 @@ $ npm run deploy
 ## License
 
 MIT © [xxhomey19](https://github.com/xxhomey19)
+
+This repo is a fork for HTML5 jQuery Docker users.
